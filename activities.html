@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css" type="text/css">
+<script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
+<script defer src="transition.js"></script>
+<title>Dillan Merchant</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" height=60px width=223px class="logo" alt="logo"></a>
+            </div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="activities.html">Activities</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <script src="app.js"></script>
+    </header>
+      <div id="swup" class="transition-fade">
+         <h1>Activities</h1>
+         <div>
+            <img src="images/collage.png" style="max-width: 1000px; max-height: 600px; display: block; margin-left: auto; margin-right: auto;">
+         </div>
+         <div id="slider" style="margin-top: 40px;">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+               <div id="overflow">
+                  <div class="inner">
+                     <div class="slide slide_1">
+                        <div class="slide-content" >
+                           <h2 style="margin-bottom: 20px; font-size: 35px;">Dance</h2>
+                           <p style="font-size: 18px;">Dancing is one of Dillan's greatest passions. Ever since he was a child, he would always
+                                 enjoy moving to the songs his parents put on the speakers. He starting pursuing this passion in high
+                                 school when he joined the <span style="text-decoration: underline;">break dancing</span> team. After 2 years of break dancing, he decided to take dance and
+                                 combine it with charitable work. He joined the organization <span style="text-decoration: underline;">South Asian Culture Show</span> (SACS) where kids from all
+                                 over the school district came together to perform two shows representing south asian culture in which all the profits 
+                                 would be donated to charities of choice. As president of the club, he managed to raise about $10,000 dollars. Finally,
+                                 when entering college, he did not plan on stopping his dancing hobby and joined a competitive Bollywood Fusion team 
+                                 known as <span style="text-decoration: underline;">Zor</span>. After months of practice, his team was able to place 5th in the nation.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="slide slide_2">
+                        <div class="slide-content">
+                           <h2 style="margin-bottom: 20px; font-size: 35px;">Tennis</h2>
+                           <p style="font-size: 22px;">After trying almost every other sport, Dillan found his most joy in playing Tennis. Starting in 8th grade,
+                                 Dillan started taking lessons in order to try to get him a spot on his high school team. After joining a league and
+                                 winning a <span style="text-decoration: underline;">USTA</span> match with his first coach, he gained more confidence in his abilities and eventually made it onto 
+                                 the <span style="text-decoration: underline;">Varsity</span> team his sophmore year. When the tennis season was off, Dillan would help <span style="text-decoration: underline;">coach</span> tennis beginners, which he 
+                                 is currently doing right now.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="slide slide_3">
+                        <div class="slide-content">
+                           <h2 style="margin-bottom: 20px; font-size: 35px;">Dog Rescue</h2>
+                           <p style="font-size: 22px;">Ever since babysitting a family friend's dog, Dillan's whole family fell in love with them. They decided to give 
+                                 a helping hand by volunteering at a local dog rescure, <span style="text-decoration: underline;">Holly's Garden Rescue</span>. They would foster dogs and provide them
+                                 with a cozy and loving stay until they found a forever home. Dillan also used his skills to help manage their
+                                 website and <span style="text-decoration: underline;">social media campaigns</span> on Facebook, in order to help advertise the dogs.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="controls">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+            </div>
+            <div id="bullets">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+            </div>
+         </div>
+      </div>
+</body>
+</html> 

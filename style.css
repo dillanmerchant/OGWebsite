@@ -584,7 +584,6 @@ nav a:hover::before {
   margin: 0 auto;
   width: 800px;
   max-width: 100%;
-  text-align: center;
 }
 #slider input[type=radio] {
   display: none;
@@ -630,16 +629,16 @@ nav a:hover::before {
 
 #slides .slide_1 {
   background: #393f4d;
-  padding: 5px;
+  padding: 15px;
 }
 #slides .slide_2 {
   background: #393f4d;
-  padding: 5px;
+  padding: 15px;
   margin-top: 70px;
 }
 #slides .slide_3 {
   background: #393f4d;
-  padding: 5px;
+  padding: 15px;
   margin-top: 45px;
 }
 

@@ -215,6 +215,7 @@ nav a:hover::before {
 @media screen and (max-width: 768px){
   body{
     overflow-x: hidden;
+    max-width: 100%;
   }
   nav ul{
     position: absolute;
@@ -373,13 +374,20 @@ nav a:hover::before {
   .containerpic {
     flex-direction: column;
   }
+}
+
+@media (max-width: 991px)
+{
+  .containerpic {
+    flex-direction: column;
+  }
   .containerpic .card {
     flex-direction: column;
     max-width: 350px;
   }
   .containerpic .card .imgbox { 
     max-width: 100%;
-    display: block;
+    display: inline-block;
   }
   .containerpic .card .contentbox { 
     margin-left: 0px;
